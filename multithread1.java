@@ -13,7 +13,7 @@ class A extends Thread{
 class B extends Thread{
     public void run()
     {
-        for(int i=0;i<1000;i++);           // Run this Program for multiple times we'll get different output 
+        for(int i=0;i<1000;i++);           // By Running  this Program for multiple times we'll get different output 
         {
         System.out.println("IN B Class");
         }
