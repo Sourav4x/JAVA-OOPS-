@@ -30,7 +30,7 @@ class runnablethread{
         Thread t2=new Thread(obj2);
 
        System.out.println(t1.getPriority());  // provides priority as the method suggests 
-        t1.setPriority(Thread.MAX_PRIORITY-2);
+        t1.setPriority(Thread.MAX_PRIORITY-1);
          System.out.println(t1.getPriority());
      
         t1.start();
